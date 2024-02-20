@@ -1,0 +1,10 @@
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\bin\Debug\AJ_linoleja_ieklasana.exe.config
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\bin\Debug\AJ_linoleja_ieklasana.exe
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\bin\Debug\AJ_linoleja_ieklasana.pdb
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\obj\Debug\AJ_linoleja_ieklasana.csprojAssemblyReference.cache
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\obj\Debug\AJ_linoleja_ieklasana.Form1.resources
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\obj\Debug\AJ_linoleja_ieklasana.Properties.Resources.resources
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\obj\Debug\AJ_linoleja_ieklasana.csproj.GenerateResource.cache
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\obj\Debug\AJ_linoleja_ieklasana.csproj.CoreCompileInputs.cache
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\obj\Debug\AJ_linoleja_ieklasana.exe
+Z:\10.klase_C#\AJ_linoleja_ieklasana\AJ_linoleja_ieklasana\obj\Debug\AJ_linoleja_ieklasana.pdb

@@ -31,15 +31,16 @@
             this.l_cena = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.l_platums = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.platums = new System.Windows.Forms.NumericUpDown();
             this.garums = new System.Windows.Forms.NumericUpDown();
             this.aprekinat = new System.Windows.Forms.Button();
             this.izvadit = new System.Windows.Forms.TextBox();
+            this.l_platums = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.platums)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.garums)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.l_platums)).BeginInit();
             this.SuspendLayout();
             // 
             // l_cena
@@ -66,13 +67,6 @@
             this.label2.Size = new System.Drawing.Size(107, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Linoleja rulļa platums:";
-            // 
-            // l_platums
-            // 
-            this.l_platums.Location = new System.Drawing.Point(178, 93);
-            this.l_platums.Name = "l_platums";
-            this.l_platums.Size = new System.Drawing.Size(72, 20);
-            this.l_platums.TabIndex = 3;
             // 
             // label3
             // 
@@ -114,6 +108,7 @@
             this.aprekinat.TabIndex = 8;
             this.aprekinat.Text = "Aprēķināt izmaksas";
             this.aprekinat.UseVisualStyleBackColor = true;
+            this.aprekinat.Click += new System.EventHandler(this.aprekinat_Click);
             // 
             // izvadit
             // 
@@ -122,18 +117,25 @@
             this.izvadit.Size = new System.Drawing.Size(100, 20);
             this.izvadit.TabIndex = 9;
             // 
+            // l_platums
+            // 
+            this.l_platums.Location = new System.Drawing.Point(178, 94);
+            this.l_platums.Name = "l_platums";
+            this.l_platums.Size = new System.Drawing.Size(72, 20);
+            this.l_platums.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.l_platums);
             this.Controls.Add(this.izvadit);
             this.Controls.Add(this.aprekinat);
             this.Controls.Add(this.garums);
             this.Controls.Add(this.platums);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.l_platums);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.l_cena);
@@ -142,6 +144,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.platums)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.garums)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.l_platums)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,13 +155,13 @@
         private System.Windows.Forms.TextBox l_cena;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox l_platums;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown platums;
         private System.Windows.Forms.NumericUpDown garums;
         private System.Windows.Forms.Button aprekinat;
         private System.Windows.Forms.TextBox izvadit;
+        private System.Windows.Forms.NumericUpDown l_platums;
     }
 }
 
